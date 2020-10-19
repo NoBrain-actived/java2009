@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./custom-css.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        .row{
+            clear: both;
+            width:100%;
+        }
+        .col{
+            float: left;
+        }
+        .col-30{
+            width:30%;
+        }
+        .col-70{
+            width:70%;
+        }
+        .col-50{
+            width: 50%;
+        }
+        .content{
+            min-height: 100vh;
+        }
+        .bg-black{
+            background-color:#373636;
+            min-height: 100vh;
+        }
+        .bg{
+            background-image:url('./imagess/bg.jpg');
+            min-height: 100vh;
+            background-repeat:no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .brand{
+            height: 270px;
+            position: absolute;
+            left: calc(50% - 250px);
+            top: calc(50% - 135px);
+            width:500px
+        }
+    </style>
+    <div class="content">
+        <div class="row">
+            <div class="col col-50 bg-black">
+                <!-- <img src="./imagess/ssss.png"/> -->
+                <div class="content-left">
+                    <div> 
+                        <p>Username</p>
+                        <input />
+                    </div>
+                    <div> 
+                        <p>Username</p>
+                        <input />
+                    </div>
+                    <div> 
+                        <p>Username</p>
+                        <input />
+                    </div>
+                </div>
+            </div>
+            <div class="col col-50 bg">
+                <img src='./imagess/brand.png' class="brand"/>
+            </div>
+        </div>
+    </div>
+    <!-- <style>
+        #outer2{
+            padding-left: 23px;
+            position:absolute; 
+            height:auto; 
+            width:200px; 
+            border: 1px solid red; 
+        }
+        #inner2{
+            left:0;
+            position:absolute; 
+            height:100%; 
+            width:20px; 
+            border: 1px solid black; 
+       }
+    </style>
+    
+    <div id='outer2'>
+        <div id='inner2'>
+        </div>
+        <div>
+            <p>hello</p>
+            <p>hello</p>
+            <p>hello</p>
+            <p>hello</p>
+        </div>
+    </div> -->
+   
+</body>
+</html>
